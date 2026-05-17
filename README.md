@@ -1,20 +1,36 @@
-# Fatemeh Aghaei Portfolio
+# Fatemeh Aghaei Personal Website
 
-A small Jekyll portfolio site for GitHub Pages.
+This repository contains the source code for my personal website:
 
-## Local preview
+https://aghaeifatemeh.github.io/
 
-Install Ruby and Bundler, then run:
+The site is a compact portfolio and CV landing page for my work across bioinformatics, QC microbiology, laboratory digitalization, GxP automation, and biomedical data analysis.
+
+## What The Website Covers
+
+The homepage highlights:
+
+- My current work in QC microbiology and laboratory digitalization
+- My MSc Bioinformatics background from the University of Birmingham
+- Selected project and thesis themes, including biomedical data analysis and biomarker research
+- Programming and reproducible workflow skills in R, Python, Git/GitHub, Quarto, and command-line tools
+- A public CV link with a privacy-safe version of my CV
+
+## How It Is Built
+
+This is a Jekyll site designed for GitHub Pages. The source lives in the root of the repository, with styles, scripts, images, and the CV organized in simple project folders.
+
+## Local Preview
+
+To preview the site locally:
 
 ```powershell
 bundle install
 bundle exec jekyll serve
 ```
 
-Open the local URL shown in the terminal.
+Then open the local URL shown in the terminal, usually:
 
-## GitHub Pages
-
-Push this folder to a GitHub repository, then enable GitHub Pages from the repository settings. Use the main branch and root folder as the source.
-
-Before publishing publicly, review `cv/CV_FatemehAghaei.pdf` because it contains personal contact details and references.
+```text
+http://127.0.0.1:4000
+```
