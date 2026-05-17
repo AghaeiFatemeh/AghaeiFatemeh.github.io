@@ -1,0 +1,13 @@
+title: Fatemeh Aghaei
+description: MSc Bioinformatics, laboratory digitalization, GxP automation, and biomedical data analysis.
+lang: en
+timezone: Europe/Amsterdam
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
