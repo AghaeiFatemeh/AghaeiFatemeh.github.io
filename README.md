@@ -19,18 +19,3 @@ The homepage highlights:
 ## How It Is Built
 
 This is a Jekyll site designed for GitHub Pages. The source lives in the root of the repository, with styles, scripts, images, and the CV organized in simple project folders.
-
-## Local Preview
-
-To preview the site locally:
-
-```powershell
-bundle install
-bundle exec jekyll serve
-```
-
-Then open the local URL shown in the terminal, usually:
-
-```text
-http://127.0.0.1:4000
-```
