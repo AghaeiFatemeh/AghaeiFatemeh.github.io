@@ -331,6 +331,27 @@ h3 {
   color: var(--muted);
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1rem;
+}
+
+.card-links a {
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--teal-dark);
+  text-decoration-thickness: 0.12rem;
+  text-underline-offset: 0.2rem;
+}
+
+.card-links a:hover,
+.card-links a:focus-visible {
+  color: var(--berry);
+  outline: none;
+}
+
 .section-skills {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.3)),
