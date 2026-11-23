@@ -9,7 +9,13 @@ description: Data analyst in nutrition research. Data integration and data quali
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description }}">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="assets/css/styles.css?v=20261122d">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aghaeifatemeh.github.io/">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="https://aghaeifatemeh.github.io/assets/img/social-preview.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="assets/css/styles.css?v=20261123c">
   </head>
   <body>
     <header class="site-header">
@@ -21,9 +27,9 @@ description: Data analyst in nutrition research. Data integration and data quali
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="cv/CV_FatemehAghaei_2026.pdf?v=20261122d">CV</a>
+        <a href="cv/CV_FatemehAghaei_2026.pdf?v=20261123">CV</a>
         <a href="https://github.com/AghaeiFatemeh" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/bioinformatics-dataanalysis-r-python-qc-microbiologist" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/fatemeh-aghaei-data-analyst" target="_blank" rel="noopener">LinkedIn</a>
       </nav>
     </header>
 
@@ -35,9 +41,12 @@ description: Data analyst in nutrition research. Data integration and data quali
             Data analyst at Danone Specialized Nutrition Research &amp; Innovation, with a background in pharmaceutical quality control and an MSc in Bioinformatics.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="cv/CV_FatemehAghaei_2026.pdf?v=20261122d" target="_blank" rel="noopener">Open CV</a>
+            <a class="button button-primary" href="cv/CV_FatemehAghaei_2026.pdf?v=20261123" target="_blank" rel="noopener">Open CV</a>
             <a class="button button-secondary" href="#experience">See my work</a>
           </div>
+          <ul class="tags tags-areas" aria-label="Areas of work">
+            <li>Data integration</li><li>Data quality</li><li>Statistics</li><li>Machine learning</li><li>Bioinformatics</li>
+          </ul>
           <ul class="tags" aria-label="Main tools">
             <li>Python</li><li>SQL</li><li>R</li><li>Databricks</li><li>PySpark</li><li>Git</li>
           </ul>
@@ -86,7 +95,7 @@ description: Data analyst in nutrition research. Data integration and data quali
             <span class="when">2022 to 2026</span>
             <div>
               <h3>Senior Microbiology Technician <span>at Johnson &amp; Johnson</span></h3>
-              <p>Conceived and prototyped an R Shiny app that automates QC reporting, then guided the global data science team that developed it.</p>
+              <p>Initiated and prototyped an automated QC reporting tool in R Shiny that expanded across global J&amp;J sites.</p>
             </div>
             <ul class="tags"><li>R Shiny</li><li>Automation</li><li>Tableau</li><li>GMP</li></ul>
           </li>
@@ -97,6 +106,12 @@ description: Data analyst in nutrition research. Data integration and data quali
         <h2>Projects</h2>
         <ul class="projects">
           <li>
+            <h3>Statistical machine learning in Python</h3>
+            <p>Clustering, data splitting and a neural network classifier, each with plots and written reasoning.</p>
+            <ul class="tags"><li>Python</li><li>scikit-learn</li><li>TensorFlow</li></ul>
+            <p class="links"><a href="https://github.com/AghaeiFatemeh/statistical-machine-learning" target="_blank" rel="noopener">Code on GitHub</a></p>
+          </li>
+          <li>
             <h3>Health data analysis and machine learning</h3>
             <p>Predictive models on health data, evaluated with cross-validation and ROC analysis.</p>
             <ul class="tags"><li>Python</li><li>scikit-learn</li><li>Jupyter</li></ul>
@@ -106,6 +121,7 @@ description: Data analyst in nutrition research. Data integration and data quali
             <h3>ARNT as a prognostic biomarker in bladder cancer</h3>
             <p>MSc thesis across two independent patient cohorts: RNA-seq, microarray and copy-number data linked to survival with Kaplan-Meier and Cox models.</p>
             <ul class="tags"><li>R</li><li>Survival analysis</li><li>RNA-seq</li></ul>
+            <p class="links"><a href="https://github.com/AghaeiFatemeh/Master-s-Thesis" target="_blank" rel="noopener">Code on GitHub</a></p>
           </li>
           <li>
             <h3>16S rRNA amplicon analysis</h3>
@@ -116,11 +132,6 @@ description: Data analyst in nutrition research. Data integration and data quali
               <a href="https://github.com/AghaeiFatemeh/16S-metabarcoding-dada2" target="_blank" rel="noopener">Code on GitHub</a>
             </p>
           </li>
-          <li>
-            <h3>Chemical stress responses in <em>Daphnia magna</em></h3>
-            <p>Combined gene expression and metabolomics data to find responses that vary with exposure.</p>
-            <ul class="tags"><li>R</li><li>Python</li><li>Multi-omics</li></ul>
-          </li>
         </ul>
       </section>
 
@@ -128,16 +139,20 @@ description: Data analyst in nutrition research. Data integration and data quali
         <h2>Skills</h2>
         <div class="skills">
           <div>
-            <h3>Languages and platforms</h3>
-            <p>Python (pandas, PySpark), SQL, R (tidyverse, Shiny), Databricks, Git and GitHub, Tableau, Excel</p>
-          </div>
-          <div>
             <h3>Data integration and quality</h3>
-            <p>Record linkage, time-based joins, deduplication, data validation, reproducible reporting with Quarto</p>
+            <p>Record linkage, time-based joins, deduplication, data validation, reproducible reporting</p>
           </div>
           <div>
-            <h3>Statistics and bioinformatics</h3>
-            <p>Regression, survival analysis, machine learning, RNA-seq, multi-omics integration</p>
+            <h3>Statistics and machine learning</h3>
+            <p>Regression, survival analysis, hypothesis testing, clustering, classification, neural networks</p>
+          </div>
+          <div>
+            <h3>Bioinformatics</h3>
+            <p>RNA-seq, differential expression, multi-omics integration, pathway enrichment, metabolomics</p>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <p>Python (pandas, PySpark, scikit-learn), SQL, R (tidyverse, Shiny), Databricks, Git and GitHub, Quarto, Tableau, Excel</p>
           </div>
         </div>
 
@@ -145,10 +160,10 @@ description: Data analyst in nutrition research. Data integration and data quali
           <div>
             <h2>The full CV</h2>
             <p>Two pages, with work history, education, projects and certifications.</p>
-            <a class="button button-primary" href="cv/CV_FatemehAghaei_2026.pdf?v=20261122d" target="_blank" rel="noopener">Open CV PDF</a>
+            <a class="button button-primary" href="cv/CV_FatemehAghaei_2026.pdf?v=20261123" target="_blank" rel="noopener">Open CV PDF</a>
           </div>
-          <a class="cv-preview" href="cv/CV_FatemehAghaei_2026.pdf?v=20261122d" target="_blank" rel="noopener" aria-label="Open CV PDF">
-            <img src="assets/img/cv-preview.png?v=20261122d" alt="Preview of Fatemeh Aghaei's CV">
+          <a class="cv-preview" href="cv/CV_FatemehAghaei_2026.pdf?v=20261123" target="_blank" rel="noopener" aria-label="Open CV PDF">
+            <img src="assets/img/cv-preview.png?v=20261123" alt="Preview of Fatemeh Aghaei's CV">
           </a>
         </div>
       </section>
@@ -157,7 +172,7 @@ description: Data analyst in nutrition research. Data integration and data quali
     <footer class="site-footer">
       <span>Fatemeh Aghaei</span>
       <a href="mailto:aghaei.fatemeh.1998@gmail.com">aghaei.fatemeh.1998@gmail.com</a>
-      <a href="https://www.linkedin.com/in/bioinformatics-dataanalysis-r-python-qc-microbiologist" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/fatemeh-aghaei-data-analyst" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/AghaeiFatemeh" target="_blank" rel="noopener">GitHub</a>
     </footer>
   </body>
