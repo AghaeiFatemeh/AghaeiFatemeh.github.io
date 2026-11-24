@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /certificates/
+
+Sitemap: https://aghaeifatemeh.github.io/sitemap.xml
